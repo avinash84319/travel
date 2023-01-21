@@ -1,8 +1,9 @@
 import React from "react"
+import "./head.css"
 
 function header(){
 return <div>
-    <h1>head working</h1>
+    <h1>Travel Free</h1>
 </div>
 }
 
