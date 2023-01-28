@@ -5,7 +5,7 @@ function Start(){
   const [backendData, setBackendData]=useState([{}])
 
   useEffect(()=>{
-    fetch("/app").then(
+    fetch("/status").then(
       response => response.json()
     ).then(
       data => {
@@ -14,9 +14,8 @@ function Start(){
     )
   },[])
 
-
+  if(backendData.status =="getinfo"){
   return <div>
-  <h1>{backendData.fuckyou}</h1>
   <form method="post"  action="http://localhost:5000/app">
     <input type="text" placeholder="From" name="from" ></input>
     <input type="text" placeholder="To" name="to" ></input>
@@ -24,6 +23,12 @@ function Start(){
     <button type="submit">✅</button>
     </form>
   </div>
+  }
+  else if(backendData.status == "gotinfo"){
+    return <div>
+      <h1>working</h1>
+    </div>
+  }
 }
 
 function App() {

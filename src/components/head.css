@@ -1,0 +1,27 @@
+.cont{
+    color:black;
+ display: inline;
+}
+.brand{
+    font-size: 40px;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+.firstli{
+    margin-left: 1200px;
+    float: left;
+  list-style-type: none;
+}
+li {
+    margin-left: 25px;
+  float: left;
+  list-style-type: none;
+}
+
+a {
+    font-size: 30px;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
