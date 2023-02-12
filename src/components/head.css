@@ -1,6 +1,6 @@
 .cont{
     color:black;
- display: inline;
+    overflow: auto;
 }
 .brand{
     font-size: 40px;
