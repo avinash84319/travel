@@ -12,8 +12,12 @@ function Result(){
     )
   },[])
 
-
-    return <div><h1>Travel which might help :-</h1>
+  if(backendData[0].phoneno ==="No Travels Found"){
+    return 
+  }
+  else{
+    return <div className="mainr">
+    <h1 className="hinr">Traveler who might help :-</h1>
     <ul>
     {backendData.map(damm => (
         <li>
@@ -22,6 +26,7 @@ function Result(){
       ))}
       </ul>
     </div>
+  }
 }
 
 export default Result;

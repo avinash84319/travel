@@ -2,7 +2,7 @@ import React from "react"
 import "./head.css"
 
 function header(){
-return <div> 
+return <div className="mainh"> 
 <div className="cont">
     <ul>
     <li><a href="#" className="brand">TRAVEL</a></li>

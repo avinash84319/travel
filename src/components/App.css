@@ -1,7 +1,25 @@
+.hinr{
+    font-family: 'montserrat', Courier, monospace;
+}
+.mainh1{
+    margin:0px;
+    padding-top: 20px;
+    padding-left:20px;
+    font-family: 'montserrat', Courier, monospace;
+}
+.main{
+    background:url("../../public/bg1.jpg");
+    height: 600px;
+}
+.mainr{
+    margin-bottom: 100px;
+    padding-left: 20px;
+}
 .formclass{
-    margin-top:50px;
-    margin-left: 50px;
+    font-family: 'montserrat', Courier, monospace;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 .inputs{
-    margin-left:50px;
+    margin-left:30px;
 }
