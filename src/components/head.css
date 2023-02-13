@@ -6,7 +6,7 @@
     overflow: auto;
 }
 .brand{
-    font-size: 40px;
+    font-size: 30px;
   display: block;
   padding: 8px;
   text-decoration: none;
@@ -20,6 +20,7 @@ li {
     margin-left: 25px;
   float: left;
   list-style-type: none;
+  margin-bottom: 8px;
 }
 
 a {
@@ -27,4 +28,9 @@ a {
   display: block;
   padding: 8px;
   text-decoration: none;
+  color:blueviolet;
+
+}
+ul{
+  margin-top:12px;
 }
